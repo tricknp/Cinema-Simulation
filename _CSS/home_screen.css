@@ -25,6 +25,9 @@ a{
 	text-decoration: none;
 }
 
+.logoHome:hover{
+  height: 38px;
+}
 
 /*--------------------------------------------------------------------------------------------------------------------------------------
 		-->	Header
@@ -39,6 +42,7 @@ a{
 	float: right;
 	margin: -6px 10px;
 }
+
 
 /*--------------------------------------------------------------------------------------------------------------------------------------
 		-->	Header buttons animations
@@ -64,12 +68,12 @@ a{
 
 
 .navHome{
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 500;
   background: none;
   border: 3px solid #b5b5b5;
   color: var(--color);
-  margin: 5px;
+  margin: 4px;
   padding: 0.7em 1em;
   -webkit-transition: 0.25s;
   transition: 0.25s;
