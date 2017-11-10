@@ -25,6 +25,10 @@ a{
 	text-decoration: none;
 }
 
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+		-->	Header
+---------------------------------------------------------------------------------------------------------------------------------------*/
 .head{
 	padding: 10px;
 	background-color: rgba(0,0,0,.2);
@@ -33,21 +37,48 @@ a{
 
 .navigation{
 	float: right;
-	margin: -8px 15px;
+	margin: -6px 10px;
 }
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+		-->	Header buttons animations
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.navHome:hover,
+.navHome:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  	0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
 
 .navHome{
-	font-size: 1.1em;
-	margin: 4px;
-	border: solid 3px #f2f2f2;
-	border-radius: 3px;
-	color: #f2f2f2;
-	padding: 0.5em 1em;
-	font-weight: 500;
+  font-size: 1.1em;
+  font-weight: 500;
+  background: none;
+  border: 3px solid #b5b5b5;
+  color: var(--color);
+  margin: 5px;
+  padding: 0.7em 1em;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  --color: #b5b5b5;
+  --hover: #857685;
 }
 
-.navHome:hover{
-	background-color: #f2f2f2;
-	color: #4f374f;
-	transition-duration: .4s;
+.navHome:hover,
+.navHome:focus{
+	 border-color: var(--hover);
+ 	 color: #b5b5b5;
 }
