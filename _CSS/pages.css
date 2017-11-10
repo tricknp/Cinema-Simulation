@@ -1,0 +1,103 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body,
+html{
+  color: #fff;
+  background: -moz-radial-gradient(center, ellipse cover, rgba(79,55,79,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(79,55,79,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+background:-webkit-radial-gradient(center, ellipse cover, rgba(79,55,79,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(79,55,79,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(79,55,79,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+background:radial-gradient(ellipse at center, rgba(79,55,79,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f374f', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+  height: 99%;
+
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+    --> Header
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.head{
+  padding: 4px;
+  background-color: rgba(0,0,0,.2);
+  margin-top: -5px;
+}
+
+.logoHome{
+  padding-top: 2px;
+}
+
+.logoHome:hover{
+  height: 38px;
+}
+
+.navigation{
+  float: right;
+  margin: -55px auto;
+}
+
+.titlePages{
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: -32px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+    --> Header buttons animations
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.navHome{
+  font-size: 1em;
+  font-weight: 500;
+  background: none;
+  border: 3px solid #b5b5b5;
+  color: var(--color);
+  margin: 4px;
+  padding: 0.7em 1em;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  --color: #b5b5b5;
+  --hover: #857685;
+}
+
+.navHome:hover,
+.navHome:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+    0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+
+.navHome:hover,
+.navHome:focus{
+   border-color: var(--hover);
+   color: #b5b5b5;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+    --> Pages Style
+---------------------------------------------------------------------------------------------------------------------------------------*/
