@@ -74,8 +74,8 @@ a{
 
 .navHome:hover,
 .navHome:focus {
-  -webkit-animation: pulse 1s;
-          animation: pulse 1s;
+  -webkit-animation: pulse .1s;
+          animation: pulse .1s;
   box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
 }
 
