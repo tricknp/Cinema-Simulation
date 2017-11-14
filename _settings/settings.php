@@ -4,10 +4,9 @@
 	$dbpass = "";
 	$dbname = "cinema";
 	
-	$con = mysqli_connect($dbhost, $dbuser, $dbpass) or print(mysql_error());
-	mysqli_select_db($con, $dbname);
-	if (!$con) {
-		echo "Error: Database not found";
-	}
-	
+	$con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+	if ($con->connect_error) {
+    	die("Connection failed: " . $con->connect_error);
+	} 
+		
  ?>

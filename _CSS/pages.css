@@ -99,5 +99,84 @@ a{
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------
-    --> Pages Style
+    --> Incluir
 ---------------------------------------------------------------------------------------------------------------------------------------*/
+.formIncluir{
+  background-color:rgba(0,0,0,.3);
+  border-radius: .8em;
+  box-shadow:0 0 .35em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  top:50%;
+  padding: 1.5vmin 14vmin;
+  position:fixed;
+  text-align:center;
+  transform:translate(-50%, -50%);
+}
+
+.hrIncluir{
+  color: #fff;
+  margin: -5% -1%;
+  border: solid 2px;
+  border-radius: 50px;
+}
+
+.containerIncluir{
+  padding: 15% 8.5%;
+}
+
+.inputInclude{
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  border: 2px solid rgba(0,0,0,.6);
+  border-radius: 2px;
+  height: 1.6em;
+}
+
+.inputInclude:hover{
+  background-color: rgba(0,0,0,.4);
+  border: solid 2px rgba(0,0,0.5);
+}
+
+#btnEnviar,
+#btnClear{
+  font-size: 1em;
+  padding: .4em 1.64em;
+  border-radius: 2px;
+  border: 3px solid rgba(0,0,0,.6);
+  background-color: rgba(0,0,0,.2);
+  font-weight: 600;
+  color: #fff;
+}
+
+#btnEnviar:hover,
+#btnClear:hover{
+  background-color: rgba(0,0,0,.4);
+  border-radius: 4px;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+label{
+  font-size: 1.2em;
+}
+
+#sala{
+  width: 12.8em;
+}
+
+#filme{
+  width: 12.2em;
+}
+
+#capacidade{
+  width: 8.1em;
+}
+
+#data{
+  width: 12.8em;
+}
+
+#hora{
+  width: 7.2em;
+}
