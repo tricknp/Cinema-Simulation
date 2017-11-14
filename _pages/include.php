@@ -24,5 +24,34 @@
 		</nav>
 	</header>
 
+	<form action="POST" action="save.php" class="formIncluir">
+		
+		<h1>Cadastrar Sessão:</h1>
+		<hr class="hrIncluir">
+		
+		<div class="containerIncluir">
+			<p>
+				<label for="sala">Sala:</label>
+	    		<input type="text" id="sala" name="sala">
+			</p>
+			<p>
+				<label for="filme">Filme:</label>
+	    		<input type="text" id="filme" name="filme">
+			</p>
+			<p>
+				<label for="capacidade">Capacidade:</label>
+	    		<input type="number" id="capacidade" name="capacidade">
+			</p>		
+			<p>
+				<label for="sala">Data:</label>
+	    		<input type="date" id="data" name="data">
+			</p>
+			<p>
+				<label for="hora">Hora de inicio:</label>
+	    		<input type="time" id="hora" name="hora">
+			</p>
+		</div>	
+	</form>
+
 </body>
 </html>
