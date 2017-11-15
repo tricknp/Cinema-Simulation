@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 	include "../_settings/settings.php";
 	$cod = $_GET["cod"];
@@ -15,6 +16,8 @@
 	$con->close();
 ?>
 
+=======
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,6 +44,7 @@
 		</nav>
 	</header>
 
+<<<<<<< HEAD
 	<form method="POST" action="../_settings/save.php" class="formIncluir">
 		
 		<h1>Cadastrar Sessão:</h1>
@@ -71,5 +75,7 @@
     			<input type="button" class="btnClear" value="Limpar" id="btnClear">
 		</div>	
 	</form>	
+=======
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
 </body>
 </html>

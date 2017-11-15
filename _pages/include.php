@@ -24,7 +24,11 @@
 			</nav>
 		</header>
 
+<<<<<<< HEAD
 		<form method="POST" action="../_settings/save.php" class="formIncluir">
+=======
+		<form method="POST" action="_actions/save.php" class="formIncluir">
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
 			
 			<h1>Cadastrar Sessão:</h1>
 			<hr class="hrIncluir">
@@ -55,7 +59,10 @@
 			</div>	
 		</form>
 
+<<<<<<< HEAD
 		<script src="../_js/pageInclude.js"></script>
 
+=======
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
 	</body>
 	</html>
