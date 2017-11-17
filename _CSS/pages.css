@@ -25,10 +25,6 @@ a{
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
 /*--------------------------------------------------------------------------------------------------------------------------------------
     --> Header
 ---------------------------------------------------------------------------------------------------------------------------------------*/
@@ -101,25 +97,10 @@ a{
    color: #b5b5b5;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
->>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
 
 .welcome{
   font-size: 12em;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
->>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
->>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
 /*--------------------------------------------------------------------------------------------------------------------------------------
     --> Incluir
 ---------------------------------------------------------------------------------------------------------------------------------------*/
@@ -137,29 +118,8 @@ a{
 }
 
 .hrIncluir{
-<<<<<<< HEAD
   margin: -4% .300em;
   border: solid 2px #fff;
-=======
-<<<<<<< HEAD
-  margin: -4% .300em;
-  border: solid 2px #fff;
-=======
-<<<<<<< HEAD
-  margin: -4% .300em;
-  border: solid 2px #fff;
-=======
-<<<<<<< HEAD
-  margin: -4% .300em;
-  border: solid 2px #fff;
-=======
-  color: #fff;
-  margin: -5% -1%;
-  border: solid 2px;
->>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
->>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
->>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
->>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
   border-radius: 50px;
 }
 
@@ -185,23 +145,7 @@ a{
   font-size: 1em;
   padding: .4em 1.64em;
   border-radius: 2px;
-<<<<<<< HEAD
   border: 2px solid #fff;
-=======
-<<<<<<< HEAD
-  border: 2px solid #fff;
-=======
-<<<<<<< HEAD
-  border: 2px solid #fff;
-=======
-<<<<<<< HEAD
-  border: 2px solid #fff;
-=======
-  border: 3px solid rgba(0,0,0,.6);
->>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
->>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
->>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
->>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
   background-color: rgba(0,0,0,.2);
   font-weight: 600;
   color: #fff;
@@ -209,32 +153,9 @@ a{
 
 #btnEnviar:hover,
 #btnClear:hover{
-<<<<<<< HEAD
   background-color: #fff;
   color: rgba(0,0,0,.9);
   border-radius: 3px;
-=======
-<<<<<<< HEAD
-  background-color: #fff;
-  color: rgba(0,0,0,.9);
-  border-radius: 3px;
-=======
-<<<<<<< HEAD
-  background-color: #fff;
-  color: rgba(0,0,0,.9);
-  border-radius: 3px;
-=======
-<<<<<<< HEAD
-  background-color: #fff;
-  color: rgba(0,0,0,.9);
-  border-radius: 3px;
-=======
-  background-color: rgba(0,0,0,.4);
-  border-radius: 4px;
->>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
->>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
->>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
->>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
   cursor: pointer;
   transition-duration: .5s;
 }
@@ -261,23 +182,12 @@ label{
 
 #hora{
   width: 7.2em;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
->>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
->>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
 }
 
 
 /*--------------------------------------------------------------------------------------------------------------------------------------
     --> Listar
 ---------------------------------------------------------------------------------------------------------------------------------------*/
-<<<<<<< HEAD
 table{
   border-collapse:collapse;
   width:100%;
@@ -309,36 +219,11 @@ tbody tr:hover{
 
 .listados{
   text-align: center;
-=======
-.list-table{
-  display: table;
-  margin: auto;
-  padding-top: 5%;
-  font-size: 1.15em;
-}
-
-.list-tHead{
-  background-color: rgba(0,0,0,.5);
-  font-size: 1.20em;
-}
-
-.list-tBody{
-  background-color: rgba(0,0,0,.3);
-}
-
-.hrlist{
-  margin: 40%;
-}
-
-.listados{
-  margin: 5% 31.7%;
->>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------
     --> Alter
 ---------------------------------------------------------------------------------------------------------------------------------------*/
-<<<<<<< HEAD
 .btnList{
   color: #fff;
   border: solid 2px #fff;
@@ -352,30 +237,6 @@ tbody tr:hover{
   color: rgba(0,0,0,.9);
   background-color: #fff;
   transition-duration: .2s;
-=======
-.listadosAlter{
-  margin: 5% 29.5%;
-}
-.hrAlterC{
-  margin: -4% 24%;
-  border: solid 2px #fff;
-  border-radius: 50px;
-}
-
-.btnAlter{
-  font-size: 1.2em;
-  background-color: rgba(0,0,0,.3);
-  color: #fff;
-  border: 2px solid #fff;
-  border-radius: 3px;
-  margin:30%;
-}
-
-.btnAlter:hover{
-    background-color: #fff;
-    color: rgba(0,0,0,.8);
-    transition-duration: .3s;
->>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
 }
 
 #btnConfirmC,
@@ -396,23 +257,4 @@ tbody tr:hover{
   border-radius: 3px;
   cursor: pointer;
   transition-duration: .5s;
-<<<<<<< HEAD
 }
-=======
-}
-/*--------------------------------------------------------------------------------------------------------------------------------------
-    --> Delete
----------------------------------------------------------------------------------------------------------------------------------------*/
-<<<<<<< HEAD
- 
-=======
-<<<<<<< HEAD
- 
-=======
- 
-=======
-}
->>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
->>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
->>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
->>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
