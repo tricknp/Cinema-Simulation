@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
 <?php
 	include "../_settings/settings.php";
 	$cod = $_GET["cod"];
@@ -15,6 +19,11 @@
 	$con->close();
 ?>
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,6 +50,10 @@
 		</nav>
 	</header>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
 	<form method="POST" action="../_settings/save.php" class="formIncluir">
 		
 		<h1>Cadastrar Sessão:</h1>
@@ -71,5 +84,10 @@
     			<input type="button" class="btnClear" value="Limpar" id="btnClear">
 		</div>	
 	</form>	
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
 </body>
 </html>

@@ -24,6 +24,10 @@
 		</nav>
 	</header>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
 	<table class="list-table">
 		<thead class="list-tHead">
 			<tr>	
@@ -78,5 +82,10 @@
 				$con->close();
 			 ?>
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
 </body>
 </html>
