@@ -1,5 +1,5 @@
 function replacePage(){
-	window.location.replace("_pages/home.html");
+	window.location.replace("_pages/home.php");
 }
 
 var btn = document.getElementById('btnStart');
