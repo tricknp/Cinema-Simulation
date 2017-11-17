@@ -18,7 +18,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 	<title>Excluir</title>
+=======
+	<title>Alterar</title>
+>>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../../_CSS/pages.css">
 	<link rel="icon" href="../../_images/icon.png" type="image/x-icon" />
@@ -28,7 +32,11 @@
 <body>
 	<header class="head">
 		<a href="../home.php"><img src="../../_images/logo.png" class="logoHome"></a>
+<<<<<<< HEAD
 		<h1 class="titlePages">Excluir</h1>
+=======
+		<h1 class="titlePages">Alterar</h1>
+>>>>>>> 2ad8ce7a5f14e0d7089c0d3fedc14806e81dcec2
 		<nav class="navigation">
 			<ul>
 				<li>
