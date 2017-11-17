@@ -8,8 +8,18 @@
 	    $sessao = $result->fetch_assoc();
 			$sala =  $sessao['sala'];
 			$filme =  $sessao['filme'];
+<<<<<<< HEAD
 			$capacidade =  $sessao['capacidade'];
 			$hora =  $sessao['horaInicio'];
+=======
+<<<<<<< HEAD
+			$capacidade =  $sessao['capacidade'];
+			$hora =  $sessao['horaInicio'];
+=======
+			$sessao =  $sessao['capacidade'];
+			$hora =  $sessao['hora'];
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 			$data =  $sessao['data'];
 	
 	$con->close();
@@ -49,6 +59,10 @@
 		<div class="containerIncluir">
 			<p>
 				<label for="sala">Sala:</label>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 		   		<input type="number" id="sala" name="sala" class="inputInclude" value="<?=$sala?>" required>
 			</p>
 			<p>
@@ -66,6 +80,28 @@
 			<p>
 				<label for="hora">Hora de inicio:</label>
 		   		<input type="time" id="hora" name="hora" class="inputInclude" value="<?=$hora?>" required>
+<<<<<<< HEAD
+=======
+=======
+		   		<input type="text" id="sala" name="sala" class="inputInclude" value="<?=$sala?>">
+			</p>
+			<p>
+				<label for="filme">Filme:</label>
+		   		<input type="text" id="filme" name="filme" class="inputInclude" value="<?=$filme?>">
+			</p>
+			<p>
+				<label for="capacidade">Capacidade:</label>
+		   		<input type="number" id="capacidade" name="capacidade" class="inputInclude" value="<?=$capacidade?>">
+			</p>		
+			<p>
+				<label for="sala">Data:</label>
+		   		<input type="date" id="data" name="data" class="inputInclude" value="<?=$data?>">
+			</p>
+			<p>
+				<label for="hora">Hora de inicio:</label>
+		   		<input type="time" id="hora" name="hora" class="inputInclude" value="<?=$hora?>">
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 			</p>
 			<input type="submit" class="btnSubmit" value="Confirmar" id="btnConfirmC">
      		<a href="../alter.php"><input type="button" class="btnCancel" value="Cancelar" id="btnCancel"></a>

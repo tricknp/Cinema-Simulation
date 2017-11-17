@@ -1,7 +1,40 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Alterar</title>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+<?php
+	include "../_settings/settings.php";
+	$cod = $_GET["cod"];
+
+	$sql="SELECT * FROM sessao WHERE id=$cod";
+	$result = $con->query($sql);
+	 
+	    $sessao = $result->fetch_assoc();
+			$sala =  $sessao['sala'];
+			$filme =  $sessao['filme'];
+			$sessao =  $sessao['capacidade'];
+			$hora =  $sessao['hora'];
+			$data =  $sessao['data'];
+
+	$con->close();
+?>
+
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Excluir</title>
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../_CSS/pages.css">
 	<link rel="icon" href="../_images/icon.png" type="image/x-icon" />
@@ -11,7 +44,11 @@
 <body>
 	<header class="head">
 		<a href="home.php"><img src="../_images/logo.png" class="logoHome"></a>
+<<<<<<< HEAD
 		<h1 class="titlePages">Alterar</h1>
+=======
+		<h1 class="titlePages">Excluir</h1>
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 		<nav class="navigation">
 			<ul>
 				<li>
@@ -24,6 +61,7 @@
 		</nav>
 	</header>
 
+<<<<<<< HEAD
 	<table class="list-table">
 		<thead class="list-tHead">
 			<tr>	
@@ -76,5 +114,46 @@
 
 				$con->close();
 			 ?>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+	<form method="POST" action="../_settings/save.php" class="formIncluir">
+		
+		<h1>Cadastrar Sessão:</h1>
+		<hr class="hrIncluir">
+		
+		<div class="containerIncluir">
+			<p>
+				<label for="sala">Sala:</label>
+	    		<input type="text" id="sala" name="sala" class="inputInclude">
+			</p>
+			<p>
+				<label for="filme">Filme:</label>
+	    		<input type="text" id="filme" name="filme" class="inputInclude">
+			</p>
+			<p>
+				<label for="capacidade">Capacidade:</label>
+	    		<input type="number" id="capacidade" name="capacidade" class="inputInclude">
+			</p>		
+			<p>
+				<label for="sala">Data:</label>
+	    		<input type="date" id="data" name="data" class="inputInclude">
+			</p>
+			<p>
+				<label for="hora">Hora de inicio:</label>
+	    		<input type="time" id="hora" name="hora" class="inputInclude">
+			</p>
+				<input type="submit" class="btnSubmit" value="Enviar" id="btnEnviar">
+    			<input type="button" class="btnClear" value="Limpar" id="btnClear">
+		</div>	
+	</form>	
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 </body>
 </html>

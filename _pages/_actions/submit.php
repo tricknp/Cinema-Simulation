@@ -24,7 +24,10 @@
  <html>
  	<body>
  		<head>
+<<<<<<< HEAD
  			<title>Redirecting</title>
+=======
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
  			<meta http-equiv="Refresh" content="0; URL=http://localhost/cinema-pi1/_pages/include.php">
  		</head>
  	</body>

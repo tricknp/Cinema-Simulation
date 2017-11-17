@@ -24,6 +24,13 @@
 		</nav>
 	</header>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 	<table class="list-table">
 		<thead class="list-tHead">
 			<tr>	
@@ -69,6 +76,11 @@
 
 					echo "</tbody>";	
 					echo "</table>";
+<<<<<<< HEAD
+=======
+
+					echo "<h3 class='listadosAlter'>N de Sessões Listadas: " .$num. "</h3>";
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 					
 				}else{
 					echo "Nenhuma sessão cadastrada";
@@ -76,5 +88,13 @@
 
 				$con->close();
 			 ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 </body>
 </html>

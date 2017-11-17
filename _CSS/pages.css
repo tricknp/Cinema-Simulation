@@ -98,10 +98,19 @@ a{
    color: #b5b5b5;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 
 .welcome{
   font-size: 12em;
 }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 /*--------------------------------------------------------------------------------------------------------------------------------------
     --> Incluir
 ---------------------------------------------------------------------------------------------------------------------------------------*/
@@ -119,8 +128,24 @@ a{
 }
 
 .hrIncluir{
+<<<<<<< HEAD
   margin: -4% .300em;
   border: solid 2px #fff;
+=======
+<<<<<<< HEAD
+  margin: -4% .300em;
+  border: solid 2px #fff;
+=======
+<<<<<<< HEAD
+  margin: -4% .300em;
+  border: solid 2px #fff;
+=======
+  color: #fff;
+  margin: -5% -1%;
+  border: solid 2px;
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
   border-radius: 50px;
 }
 
@@ -146,7 +171,19 @@ a{
   font-size: 1em;
   padding: .4em 1.64em;
   border-radius: 2px;
+<<<<<<< HEAD
   border: 2px solid #fff;
+=======
+<<<<<<< HEAD
+  border: 2px solid #fff;
+=======
+<<<<<<< HEAD
+  border: 2px solid #fff;
+=======
+  border: 3px solid rgba(0,0,0,.6);
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
   background-color: rgba(0,0,0,.2);
   font-weight: 600;
   color: #fff;
@@ -154,9 +191,26 @@ a{
 
 #btnEnviar:hover,
 #btnClear:hover{
+<<<<<<< HEAD
   background-color: #fff;
   color: rgba(0,0,0,.9);
   border-radius: 3px;
+=======
+<<<<<<< HEAD
+  background-color: #fff;
+  color: rgba(0,0,0,.9);
+  border-radius: 3px;
+=======
+<<<<<<< HEAD
+  background-color: #fff;
+  color: rgba(0,0,0,.9);
+  border-radius: 3px;
+=======
+  background-color: rgba(0,0,0,.4);
+  border-radius: 4px;
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
   cursor: pointer;
   transition-duration: .5s;
 }
@@ -183,6 +237,13 @@ label{
 
 #hora{
   width: 7.2em;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 }
 
 
@@ -262,4 +323,15 @@ label{
 /*--------------------------------------------------------------------------------------------------------------------------------------
     --> Delete
 ---------------------------------------------------------------------------------------------------------------------------------------*/
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+ 
+=======
+ 
+=======
+}
+>>>>>>> 363a6df11f76038903f09bd6277e88160dd266a5
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60

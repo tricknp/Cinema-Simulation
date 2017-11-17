@@ -24,10 +24,19 @@
 		</nav>
 	</header>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 	<section>
 		<img src="../_images/popcorn.png" class="pipoca" style="position: fixed; top:10%; left: -2%; width: 32em;">
 		<h1 class="welcome">Bem vindo!</h1>
 	</section>
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 221d01e7f4eb23497ee0c5833b7f22dce344b7b8
+>>>>>>> 93e6762ff7b37e1ad0156a552d48c55cd2c0ac60
 </body>
 </html>
