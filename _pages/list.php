@@ -25,6 +25,16 @@
 	</header>
 
 	<section class="tables-container">
+		
+		<div class="div-search">
+			<p>
+				<form action="<?php echo $_SERVER['PHP_SELF']; ?>">
+					<input type="text" placeholder="Procurando por" id="search" required> 
+					<input type="submit" value="Buscar" id="searchButton">
+				</form>
+			</p>
+		</div>
+
 		<table class="list-table">
 			<thead class="list-tHead">
 				<tr>	

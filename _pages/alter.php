@@ -24,7 +24,15 @@
 		</nav>
 	</header>
 	
-	<section class="tables-container">	
+	<section class="tables-container">
+
+		<div class="div-search">
+			<p>
+				<input type="text" placeholder="Procurando por" id="search" required> 
+				<input type="submit" value="Buscar" id="searchButton">
+			</p>
+		</div>
+			
 		<table class="list-table">
 			<thead class="list-tHead">
 				<tr>	
