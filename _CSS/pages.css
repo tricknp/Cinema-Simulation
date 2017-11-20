@@ -1,0 +1,295 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body,
+html{
+  color: #fff;
+  background: -moz-radial-gradient(center, ellipse cover, rgba(79,55,79,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(79,55,79,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+background:-webkit-radial-gradient(center, ellipse cover, rgba(79,55,79,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(79,55,79,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(79,55,79,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+background:radial-gradient(ellipse at center, rgba(79,55,79,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f374f', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+  height: 99%;
+
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+    --> Header
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.head{
+  padding: 5px;
+  background-color: rgba(0,0,0,.2);
+  margin-top: -3px;
+}
+
+.logoHome{
+  position: absolute;
+  top: 1.5%;
+  left: 1%;
+}
+
+.logoHome:hover{
+  height: 40px;
+  width: 158px;
+}
+
+.navigation{
+  float: right;
+  margin: -55px auto;
+}
+
+.titlePages{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 5px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+    --> Header buttons animations
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.navHome{
+  font-size: 1em;
+  font-weight: 500;
+  background: none;
+  border: 3px solid #b5b5b5;
+  color: var(--color);
+  margin: 4px;
+  padding: 0.7em 1em;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  --color: #b5b5b5;
+  --hover: #857685;
+}
+
+.navHome:hover,
+.navHome:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+
+@-webkit-keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+    0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+
+.navHome:hover,
+.navHome:focus{
+   border-color: var(--hover);
+   color: #b5b5b5;
+}
+
+
+.welcome{
+  font-size: 12em;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------
+    --> Incluir
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.formIncluir{
+  background-color:rgba(0,0,0,.3);
+  border-radius: .8em;
+  box-shadow:0 0 .35em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  top:50%;
+  padding: 1.5vmin 14vmin;
+  position:fixed;
+  text-align:center;
+  transform:translate(-50%, -50%);
+}
+
+.hrIncluir{
+  margin: -4% .300em;
+  border: solid 2px #fff;
+  border-radius: 50px;
+}
+
+.containerIncluir{
+  padding: 15% 8.5%;
+}
+
+.inputInclude{
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  border: 2px solid rgba(0,0,0,.6);
+  border-radius: 2px;
+  height: 1.6em;
+}
+
+.inputInclude:hover{
+  background-color: rgba(0,0,0,.4);
+  border: solid 2px rgba(0,0,0.5);
+}
+
+#btnEnviar,
+#btnClear{
+  font-size: 1em;
+  padding: .4em 1.64em;
+  border-radius: 2px;
+  border: 2px solid #fff;
+  background-color: rgba(0,0,0,.2);
+  font-weight: 600;
+  color: #fff;
+}
+
+#btnEnviar:hover,
+#btnClear:hover{
+  background-color: #fff;
+  color: rgba(0,0,0,.9);
+  border-radius: 3px;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+label{
+  font-size: 1.2em;
+}
+
+#sala{
+  width: 12.8em;
+}
+
+#filme{
+  width: 12.2em;
+}
+
+#capacidade{
+  width: 8.1em;
+}
+
+#data{
+  width: 12.8em;
+}
+
+#hora{
+  width: 7.2em;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+    --> Listar
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.div-search{
+  text-align: left;
+}
+
+#search{
+  background-color: rgba(0,0,0,.2);
+  border: 3px solid #fff;
+  color: #fff;
+  padding: .7em 1.3em;
+  width: 22%;
+  text-align: left;
+  font-size: 1em;
+  border-radius: 35px;
+}
+
+/*#searchButton{
+  background-color: rgba(0,0,0,.3);
+  border: 3px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  padding: .4em .6em;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+#searchButton:hover{
+  background-color: #fff;
+  color: rgba(0,0,0,.8);
+  cursor: pointer;
+}
+*/
+table{
+  border-collapse:collapse;
+  width:100%;
+}
+
+.list-table{
+  border:3px solid #fff;
+}
+
+.list-table thead{
+  background:#fff;
+  color: rgba(0,0,0,.8);
+  font-size: 1.25em;
+}
+
+th,td{
+  text-align:center;
+  padding:7px 0;
+}
+
+tbody tr:nth-child(even){
+  background:rgba(0,0,0,.3);
+}
+
+tbody tr:hover{
+  background: rgba(0,0,0,.4);
+  color: #fff;
+}
+
+.listados{
+  text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------
+    --> Alter
+---------------------------------------------------------------------------------------------------------------------------------------*/
+.btnList{
+  color: #fff;
+  border: solid 2px #fff;
+  background-color: rgba(0,0,0,.9);
+  font-size: 1.25em;
+  padding: 3px 20px;
+  border-radius: 4px;
+}
+
+.btnList:hover{
+  color: rgba(0,0,0,.9);
+  background-color: #fff;
+  transition-duration: .2s;
+}
+
+#btnConfirmC,
+#btnCancel{
+  font-size: 1em;
+  padding: .4em 1.1em;
+  border-radius: 2px;
+  border: 2px solid #fff;
+  background-color: rgba(0,0,0,.2);
+  font-weight: 600;
+  color: #fff;
+}
+
+#btnConfirmC:hover,
+#btnCancel:hover{
+  background-color: #fff;
+  color: rgba(0,0,0,.9);
+  border-radius: 3px;
+  cursor: pointer;
+  transition-duration: .5s;
+}
