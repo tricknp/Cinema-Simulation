@@ -1,6 +1,6 @@
 $(document).ready(function(){
-
-	$('#filter').keyup(function(){
+	var filter = document.getElementById('filter').value;
+	$(filter).keyup(function(){
 
 		$('form').submit(function(){
 			var filter = $(this).serialize();
@@ -11,7 +11,7 @@ $(document).ready(function(){
 				dataType: 'html',
 				data: filter,
 				sucess: function(data){
-					$('#searchResult').empty().html(data);
+					$('.list-tBody').empty().html(data);
 				}
 			});
 		
@@ -19,8 +19,8 @@ $(document).ready(function(){
 		
 		});
 
+		console.log(filter);
 		$('form').trigger('submit');
-
 	});
 
 });

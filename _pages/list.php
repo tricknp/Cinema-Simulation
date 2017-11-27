@@ -7,8 +7,9 @@
 	<link rel="icon" href="../_images/icon.png" type="image/x-icon" />
 	<link rel="shortcut icon" href="../_images/icon.png" type="image/x-icon" />
 </head>
-</head>
 <body>
+	<script src="../_js/jquery.js"></script>
+	<script src="../_js/search.js"></script>
 	<header class="head">
 		<a href="home.php"><img src="../_images/logo.png" class="logoHome"></a>
 		<h1 class="titlePages">Lista</h1>
@@ -25,11 +26,11 @@
 	</header>
 
 	<div class="div-search">
-		<p><!-- 
-			<form action="_actions/listResults.php" method="POST">-->
-		 	<form> 	
+		<p>
+	   <form action="_actions/listResults.php" method="POST">
+			<!-- <form>  -->	 
 				<input type="text" placeholder="Procurando por..." id="filter"  name="filter" > 
-				<!-- <input type="submit" value="Buscar" id="submit" name="submit"> -->
+				<input type="submit" value="Buscar" id="submit" name="submit" style="display:none"">
 			</form>
 		</p>
 	</div>
@@ -91,9 +92,6 @@
 					$con->close();
 				 ?>
 	</section>
-
-	<script src="../_js/jquery.js"></script>
-	<script src="../_js/search.js"></script>
 
 </body>
 </html>
