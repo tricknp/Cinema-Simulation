@@ -4,7 +4,13 @@
 
 	$filter = isset($_POST['filter']) ? $_POST['filter'] : '';
 
-	$sql = "SELECT * FROM sessao WHERE filme LIKE '%$filter%'";
+	$sql = "SELECT * FROM sessao 
+	WHERE ( filme LIKE '%$filter%' )
+	OR ( id LIKE '%$filter%' )
+	OR ( sala LIKE '%$filter%' )
+	OR ( capacidade LIKE '%$filter%' )
+	OR ( data LIKE '%$filter%' )
+	OR ( horaInicio LIKE '%$filter%' )";
 	$result = $con->query($sql);
 	
 	echo '
@@ -55,5 +61,4 @@
 			echo "<h3>Nenhuma sessão cadastrada</h3>";
 		}
 	$con->close();	
-	
 ?>
