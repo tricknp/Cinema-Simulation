@@ -8,8 +8,6 @@
 	<link rel="shortcut icon" href="../_images/icon.png" type="image/x-icon" />
 </head>
 <body>
-	<script src="../_js/jquery.js"></script>
-	<script src="../_js/search.js"></script>
 	<header class="head">
 		<a href="home.php"><img src="../_images/logo.png" class="logoHome"></a>
 		<h1 class="titlePages">Lista</h1>
@@ -30,7 +28,7 @@
 	   <form action="_actions/listResults.php" method="POST">
 			<!-- <form>  -->	 
 				<input type="text" placeholder="Procurando por..." id="filter"  name="filter" > 
-				<input type="submit" value="Buscar" id="submit" name="submit" style="display:none"">
+				<input type="submit" value="Buscar" id="searchButton" name="submit">
 			</form>
 		</p>
 	</div>
@@ -93,5 +91,7 @@
 				 ?>
 	</section>
 
+	<script src="../_js/jquery.js"></script>
+	<script src="../_js/search.js"></script>
 </body>
 </html>

@@ -26,12 +26,15 @@
 
 	<section class="tables-container">
 		
-		<div class="div-search">
-			<p>
-				<input type="text" placeholder="Procurando por" id="search" required> 
-				<input type="submit" value="Buscar" id="searchButton">
-			</p>
-		</div>
+	<div class="div-search">
+		<p>
+	   <form action="_actions/listResults.php" method="POST">
+			<!-- <form>  -->	 
+				<input type="text" placeholder="Procurando por..." id="filter"  name="filter" > 
+				<input type="submit" value="Buscar" id="searchButton" name="submit">
+			</form>
+		</p>
+	</div>
 
 		<table class="list-table">
 			<thead class="list-tHead">

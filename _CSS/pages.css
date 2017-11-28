@@ -196,18 +196,18 @@ label{
   text-align: left;
 }
 
-#search{
+#filter{
   background-color: rgba(0,0,0,.2);
   border: 3px solid #fff;
   color: #fff;
-  padding: .7em 1.3em;
+  padding: .4em .9em;
   width: 22%;
   text-align: left;
   font-size: 1em;
-  border-radius: 35px;
+  border-radius: 5px;
 }
 
-/*#searchButton{
+#searchButton{
   background-color: rgba(0,0,0,.3);
   border: 3px solid #fff;
   border-radius: 3px;
@@ -222,7 +222,7 @@ label{
   color: rgba(0,0,0,.8);
   cursor: pointer;
 }
-*/
+
 table{
   border-collapse:collapse;
   width:100%;
@@ -254,6 +254,40 @@ tbody tr:hover{
 
 .listados{
   text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.arrow{
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 2%;
+}
+
+.arrow:hover{
+  width: 67px;
+  height: 67px;
+}
+
+.arrow-2{
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  padding-top: 5%;
+  left: 2%;
+}
+
+.arrow-2:hover{
+  width: 67px;
+  height: 67px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------

@@ -1,3 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Listar</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../../_CSS/pages.css">
+	<link rel="icon" href="../../_images/icon.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="../../_images/icon.png" type="image/x-icon" />
+</head>
+<body>
+
+	<header class="head">
+		<a href="../home.php"><img src="../../_images/logo.png" class="logoHome"></a>
+		<h1 class="titlePages">Lista</h1>
+		<nav class="navigation">
+			<ul>
+				<li>
+					<a href="../include.php" class="navHome">Incluir</a>
+					<a href="../list.php" class="navHome">Listar</a>
+					<a href="../alter.php" class="navHome">Alterar</a>
+					<a href="../delete.php" class="navHome">Excluir</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="div-search">
+		<p>
+	   <form action="listResults.php" method="POST">
+			<!-- <form>  -->	 
+				<input type="text" placeholder="Procurando por..." id="filter"  name="filter" > 
+				<input type="submit" value="Buscar" id="searchButton" name="submit">
+			</form>
+		</p>
+	</div>	
+	
 <?php
 	
 	include "../../_settings/settings.php";
@@ -56,9 +92,14 @@
 		echo "</table>";
 
 		echo "<h3 class='listados'>N de Sessões Listadas: " .$num. "</h3>";
+		echo' <a href="../list.php"><img src="../../_images/arrow.svg" class="arrow"></a>';
 						
 		}else{
 			echo "<h3>Nenhuma sessão cadastrada</h3>";
+			echo' <a href="../list.php"><img src="../../_images/arrow.svg" class="arrow-2"></a>';
 		}
 	$con->close();	
 ?>
+
+</body>
+</html>
