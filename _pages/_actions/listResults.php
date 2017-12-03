@@ -91,7 +91,7 @@
 		echo "</tbody>";
 		echo "</table>";
 
-		echo "<h3 class='listados'>N de Sessões Listadas: " .$num. "</h3>";
+		echo "<h3 class='listados'>Nº de Sessões Listadas: " .$num. "</h3>";
 		echo' <a href="../list.php"><img src="../../_images/arrow.svg" class="arrow"></a>';
 						
 		}else{
